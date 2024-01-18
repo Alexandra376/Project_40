@@ -1,4 +1,4 @@
-public class PrintDayInMonth {
+public class DayInMonth {
     public static int printDayInMonth(Month month) {
         return switch (month) {
             case JANUARY -> Month.JANUARY.getDayInMonth();
@@ -17,17 +17,17 @@ public class PrintDayInMonth {
         };
     }
     public static void main(String[] args) {
-        System.out.println(printDayInMonth(Month.JANUARY));
-        System.out.println(printDayInMonth(Month.FEBRUARY));
-        System.out.println(printDayInMonth(Month.MARCH));
-        System.out.println(printDayInMonth(Month.APRIL));
-        System.out.println(printDayInMonth(Month.MAY));
-        System.out.println(printDayInMonth(Month.JUNE));
-        System.out.println(printDayInMonth(Month.JULY));
-        System.out.println(printDayInMonth(Month.AUGUST));
-        System.out.println(printDayInMonth(Month.SEPTEMBER));
-        System.out.println(printDayInMonth(Month.OCTOBER));
-        System.out.println(printDayInMonth(Month.NOVEMBER));
-        System.out.println(printDayInMonth(Month.DECEMBER));
+        System.out.println("JANUARY: " + printDayInMonth(Month.JANUARY));
+        System.out.println("FEBRUARY: " + printDayInMonth(Month.FEBRUARY));
+        System.out.println("MARCH: " + printDayInMonth(Month.MARCH));
+        System.out.println("APRIL: " + printDayInMonth(Month.APRIL));
+        System.out.println("MAY: " + printDayInMonth(Month.MAY));
+        System.out.println("JUNE: " + printDayInMonth(Month.JUNE));
+        System.out.println("JULY: " + printDayInMonth(Month.JULY));
+        System.out.println("AUGUST: " + printDayInMonth(Month.AUGUST));
+        System.out.println("SEPTEMBER: " + printDayInMonth(Month.SEPTEMBER));
+        System.out.println("OCTOBER: " + printDayInMonth(Month.OCTOBER));
+        System.out.println("NOVEMBER: " + printDayInMonth(Month.NOVEMBER));
+        System.out.println("DECEMBER: " + printDayInMonth(Month.DECEMBER));
     }
 }

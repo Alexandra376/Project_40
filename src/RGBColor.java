@@ -8,8 +8,8 @@ public class RGBColor {
         };
     }
     public static void main(String[] args) {
-        System.out.println(convertToRGBColor(Color.RED));
-        System.out.println(convertToRGBColor(Color.BLUE));
-        System.out.println(convertToRGBColor(Color.GREEN));
+        System.out.println("Red color: " + convertToRGBColor(Color.RED));
+        System.out.println("Blue color: " + convertToRGBColor(Color.BLUE));
+        System.out.println("Green color: " + convertToRGBColor(Color.GREEN));
     }
 }
